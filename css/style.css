@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 36px;
+    color: #648cff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.col-lg-2, .col-lg-8 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.wrap {
+    max-width: 1900px;
+}
+
+header {
+    background-color: transparent;
+    ;
+    height: auto;
+    background-image: url(../img/wave.png);
+    background-repeat: repeat-x;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 87px;
+}
+
+.header-row {
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nav ul {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 42px;
+}
+
+.nav ul li a {
+    font-size: 18px;
+    color: #e1e1e1;
+}
+
+.nav ul li a:hover {
+    color: #fff;
+}
+
+.socials {
+    text-align: center;
+
+}
+
+.social {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #fff;
+}
+
+.header-content {
+    margin-top: 120px;
+}
+
+.header-content .col-md-5 {
+    text-align: left;
+}
+
+.header-content .col-md-7 {
+    text-align: right;
+}
+
+.banner {
+  height: 650px;
+  background-image: url(../img/London.png);
+  -webkit-background-size: 552px 631px;
+  background-size: 552px 631px;
+  background-repeat: no-repeat;
+  background-position: 72px 0;
+}
+.header-content .col-md-5 p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.buttons {
+    margin-top: 60px;
+}
+
+.download {
+    height: 52px;
+    width: 158px;
+    background-color: #fc6a42;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    margin-right: 13px;
+}
+
+.download:hover {
+background-color: #FC6A7B;
+}
+
+.download:focus {
+  outline: none;
+}
+
+.features {
+    height: 52px;
+    width: 158px;
+    background-color: #4466c9;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.features:hover {
+background-color: #4466F0;
+}
+
+.features:focus {
+  outline: none;
+}
+
+.shape {
+    display: block;
+    margin: 0 auto;
+}
+
+.phone {
+    margin-right: 47px;
+}
+
+.content {
+    background-color: #fff;
+}
+
+.col-md-12 {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.col-md-12 p {
+    font-size: 18px;
+    color: #999999;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #353854;
+    padding-left: 74px;
+}
+
+.about {
+    font-size: 16px;
+    color: #aeaeae;
+    margin-top: 33px;
+    padding-left: 74px;
+}
+
+.col-md-4 {
+    padding-left: 30px;
+}
+
+.first {
+    background-image: url(../img/icon.png);
+    background-size: 80px 62px;
+    background-repeat: no-repeat;
+    ;
+}
+
+.second {
+    background-image: url(../img/icon2.png);
+    background-size: 78px 62px;
+    background-repeat: no-repeat;
+    ;
+}
+
+.third {
+    background-image: url(../img/icon3.png);
+    background-size: 77px 62px;
+    background-repeat: no-repeat;
+    ;
+}
+
+.slider-container {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.slider-container p {
+    font-size: 18px;
+    color: #999999;
+    margin-bottom: 80px;
+}
+
+.slider {
+    padding-top: 80px;
+    text-align: center;
+    ;
+}
+
+.screenshots {
+    margin-top: 140px;
+}
+
+.screenshots p {
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+}
+
+.first-block {
+    padding-top: 200px;
+}
+
+.screen {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.description {
+    text-align: left;
+    margin-top: 120px;
+}
+
+.description h3 {
+    font-size: 36px;
+    color: #648cff;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.description p {
+    font-size: 24px;
+    color: #353854;
+    padding-bottom: 60px;
+}
+
+.second-block {
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.screen-middle {
+    max-width: 450px;
+    width: 100%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.screen-bottom {
+    max-width: 485px;
+    width: 100%;
+    height: auto;
+}
+
+.third-block {
+    padding-top: 200px;
+}
+
+.qoutes {
+    margin-top: 125px;
+}
+
+.underhead {
+    font-size: 18px;
+    color: #999999;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.scopes {
+    background-image: url(../img/open.png), url(../img/close.png);
+    background-position: 16px 88px, 513px 269px;
+    background-repeat: no-repeat;
+    padding-bottom: 140px;
+    padding-top: 140px;
+}
+
+.scopes p {
+    font-size: 24px;
+    color: #353854;
+    margin-bottom: 30px;
+}
+
+span {
+    font-size: 18px;
+    color: #353854;
+}
+
+.download-footer {
+    background-color: #648cff;
+}
+
+.download-footer>.container {
+    margin-right: 0;
+
+}
+
+.download-footer>.container>.row>.col-md-6>h2 {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 125px;
+    margin-bottom: 45px;
+}
+
+.download-footer>.container>.row>.col-md-6>p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.link {
+    margin-top: 30px;
+    margin-right: 7px;
+}
+
+.iphones {
+    background-image: url(../img/iphones.png);
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    -webkit-background-size: 700px 700px;
+    background-size: 700px 700px;
+    height: 460px;
+    margin-top: 80px;
+}
+
+footer {
+  background-color: #353854;
+  background-image: url(../img/line.png);
+  background-position: 0 110px;
+  background-repeat: repeat-x;
+
+}
+
+.subfooter p {
+  font-size: 16px;
+  color: #565b87;
+  -ms-text-align-last: auto;
+  text-align: right;
+  margin: 50px 0 50px 0;
+}
+.nav-button a {
+  margin-left: 95%;
+}
